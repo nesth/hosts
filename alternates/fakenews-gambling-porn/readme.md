@@ -1,7 +1,8 @@
 ----
 **Take Note!**
-- This version of the Hosts file generator, and tests, are for Python 3.5+ only.
-- With the exception of issues and PRs regarding changes to `hosts/data/StevenBlack/hosts`, all other issues regarding the content of the produced hosts files should be made with the appropriate data source that contributed the content in question. The contact information for all of the data sources can be found in the `hosts/data/` directory.
+
+* This version of the Hosts file generator, and tests, are for Python 3.5+ only.
+* With the exception of issues and PRs regarding changes to `hosts/data/StevenBlack/hosts`, all other issues regarding the content of the produced hosts files should be made with the appropriate data source that contributed the content in question. The contact information for all of the data sources can be found in the `hosts/data/` directory.
 ----
 
 ![Logo](https://raw.githubusercontent.com/StevenBlack/hosts/master/.github/logo.png)
@@ -10,7 +11,7 @@
 [![license](https://img.shields.io/github/license/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/blob/master/license.txt)
 [![repo size](https://img.shields.io/github/repo-size/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts)
 [![contributors](https://img.shields.io/github/contributors/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/graphs/contributors)
-[![Build Status](https://img.shields.io/travis/StevenBlack/hosts/master.svg)](https://travis-ci.org/StevenBlack/hosts)
+[![Build Status](https://img.shields.io/github/workflow/status/StevenBlack/hosts/CI/master)](https://github.com/StevenBlack/hosts/actions?workflow=CI)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 [![commits since last release](https://img.shields.io/github/commits-since/StevenBlack/hosts/latest.svg)](https://github.com/StevenBlack/hosts/commits/master)
 [![last commit](https://img.shields.io/github/last-commit/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
@@ -21,8 +22,8 @@
 This repository consolidates several reputable `hosts` files, and merges them
 into a unified hosts file with duplicates removed.  A variety of tailored hosts files are provided.
 
-* Last updated: **April 22 2020**.
-* Here's the [raw hosts file with fakenews, gambling, porn extensions](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts) containing 78,009 entries.
+* Last updated: **November 25 2020**.
+* Here's the [raw hosts file with fakenews, gambling, porn extensions](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts) containing 86,698 entries.
 * Logo by [@Tobaloidee](https://github.com/Tobaloidee).
 
 
@@ -36,22 +37,22 @@ with GitHub download links.
 
 Host file recipe | Readme | Raw hosts | Unique domains | Non GitHub mirror
 ---------------- |:------:|:---------:|:--------------:|:-------------:
-Unified hosts = **(adware + malware)** | [Readme](https://github.com/StevenBlack/hosts/blob/master/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) | 55,262 | [link](http://sbc.io/hosts/hosts)
-Unified hosts **+ fakenews** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts) | 56,204 | [link](http://sbc.io/hosts/alternates/fakenews/hosts)
-Unified hosts **+ gambling** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts) | 57,585 | [link](http://sbc.io/hosts/alternates/gambling/hosts)
-Unified hosts **+ porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts) | 74,744 | [link](http://sbc.io/hosts/alternates/porn/hosts)
-Unified hosts **+ social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts) | 58,013 | [link](http://sbc.io/hosts/alternates/social/hosts)
-Unified hosts **+ fakenews + gambling** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts) | 58,527 | [link](http://sbc.io/hosts/alternates/fakenews-gambling/hosts)
-Unified hosts **+ fakenews + porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts) | 75,686 | [link](http://sbc.io/hosts/alternates/fakenews-porn/hosts)
-Unified hosts **+ fakenews + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts) | 58,955 | [link](http://sbc.io/hosts/alternates/fakenews-social/hosts)
-Unified hosts **+ gambling + porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling-porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts) | 77,067 | [link](http://sbc.io/hosts/alternates/gambling-porn/hosts)
-Unified hosts **+ gambling + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts) | 60,336 | [link](http://sbc.io/hosts/alternates/gambling-social/hosts)
-Unified hosts **+ porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts) | 77,494 | [link](http://sbc.io/hosts/alternates/porn-social/hosts)
-Unified hosts **+ fakenews + gambling + porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling-porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts) | 78,009 | [link](http://sbc.io/hosts/alternates/fakenews-gambling-porn/hosts)
-Unified hosts **+ fakenews + gambling + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts) | 61,278 | [link](http://sbc.io/hosts/alternates/fakenews-gambling-social/hosts)
-Unified hosts **+ fakenews + porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts) | 78,436 | [link](http://sbc.io/hosts/alternates/fakenews-porn-social/hosts)
-Unified hosts **+ gambling + porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling-porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts) | 79,817 | [link](http://sbc.io/hosts/alternates/gambling-porn-social/hosts)
-Unified hosts **+ fakenews + gambling + porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling-porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | 80,759 | [link](http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts)
+Unified hosts = **(adware + malware)** | [Readme](https://github.com/StevenBlack/hosts/blob/master/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) | 60,122 | [link](http://sbc.io/hosts/hosts)
+Unified hosts **+ fakenews** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts) | 62,317 | [link](http://sbc.io/hosts/alternates/fakenews/hosts)
+Unified hosts **+ gambling** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts) | 62,446 | [link](http://sbc.io/hosts/alternates/gambling/hosts)
+Unified hosts **+ porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts) | 82,179 | [link](http://sbc.io/hosts/alternates/porn/hosts)
+Unified hosts **+ social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts) | 62,880 | [link](http://sbc.io/hosts/alternates/social/hosts)
+Unified hosts **+ fakenews + gambling** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts) | 64,641 | [link](http://sbc.io/hosts/alternates/fakenews-gambling/hosts)
+Unified hosts **+ fakenews + porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn/hosts) | 84,374 | [link](http://sbc.io/hosts/alternates/fakenews-porn/hosts)
+Unified hosts **+ fakenews + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-social/hosts) | 65,075 | [link](http://sbc.io/hosts/alternates/fakenews-social/hosts)
+Unified hosts **+ gambling + porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling-porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn/hosts) | 84,503 | [link](http://sbc.io/hosts/alternates/gambling-porn/hosts)
+Unified hosts **+ gambling + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-social/hosts) | 65,204 | [link](http://sbc.io/hosts/alternates/gambling-social/hosts)
+Unified hosts **+ porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-social/hosts) | 84,936 | [link](http://sbc.io/hosts/alternates/porn-social/hosts)
+Unified hosts **+ fakenews + gambling + porn** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling-porn/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts) | 86,698 | [link](http://sbc.io/hosts/alternates/fakenews-gambling-porn/hosts)
+Unified hosts **+ fakenews + gambling + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social/hosts) | 67,399 | [link](http://sbc.io/hosts/alternates/fakenews-gambling-social/hosts)
+Unified hosts **+ fakenews + porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-porn-social/hosts) | 87,131 | [link](http://sbc.io/hosts/alternates/fakenews-porn-social/hosts)
+Unified hosts **+ gambling + porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/gambling-porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-porn-social/hosts) | 87,260 | [link](http://sbc.io/hosts/alternates/gambling-porn-social/hosts)
+Unified hosts **+ fakenews + gambling + porn + social** | [Readme](https://github.com/StevenBlack/hosts/blob/master/alternates/fakenews-gambling-porn-social/readme.md) | [link](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts) | 89,455 | [link](http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts)
 
 
 **Expectation**: These unified hosts files should serve all devices, regardless
@@ -73,9 +74,9 @@ add.Spam | Spam sites based on [hostsfile.org](http://www.hostsfile.org/hosts.ht
 Mitchell Krog's - Badd Boyz Hosts | Sketchy domains and Bad Referrers from my Nginx and Apache Bad Bot and Spam Referrer Blockers |[link](https://github.com/mitchellkrogza/Badd-Boyz-Hosts) | [raw](https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts) | weekly | MIT | [issues](https://github.com/mitchellkrogza/Badd-Boyz-Hosts/issues)
 hostsVN | Hosts block ads of Vietnamese |[link](https://github.com/bigdargon/hostsVN) | [raw](https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hosts-VN) | occasionally | MIT | [issues](https://github.com/bigdargon/hostsVN/issues)
 KADhosts | Fraud/adware/scam websites. |[link](https://kadantiscam.netlify.app/) | [raw](https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts_without_controversies.txt) | frequently | CC BY-SA 4.0 | [issues](https://github.com/PolishFiltersTeam/KADhosts/issues)
-Malware Domain List | Malware Domain List is a non-commercial community project. |[link](https://www.malwaredomainlist.com/) | [raw](https://www.malwaredomainlist.com/hostslist/hosts.txt) | weekly | 'can be used for free by anyone' | [issues](https://www.malwaredomainlist.com/contact.php)
-MVPS hosts file | The purpose of this site is to provide the user with a high quality custom HOSTS file. |[link](http://winhelp2002.mvps.org/) | [raw](http://winhelp2002.mvps.org/hosts.txt) | monthly | CC BY-NC-SA 4.0 | [issues](mailto:winhelp2002@gmail.com)
-Dan Pollock – [someonewhocares](https://someonewhocares.org/) | How to make the internet not suck (as much). |[link](https://someonewhocares.org/hosts/) | [raw](https://someonewhocares.org/hosts/zero/hosts) | frequently | non-commercial with attribution | [issues](hosts@someonewhocares.org)
+MVPS hosts file | The purpose of this site is to provide the user with a high quality custom HOSTS file. |[link](https://winhelp2002.mvps.org/) | [raw](https://winhelp2002.mvps.org/hosts.txt) | monthly | CC BY-NC-SA 4.0 | [issues](mailto:winhelp2002@gmail.com)
+osint.digitalside.it | DigitalSide Threat-Intel malware domains list. |[link](https://github.com/davidonzo/Threat-Intel) | [raw](https://raw.githubusercontent.com/davidonzo/Threat-Intel/master/lists/latestdomains.piHole.txt) | daily | MIT | [issues](https://github.com/davidonzo/Threat-Intel/issues)
+Dan Pollock – [someonewhocares](https://someonewhocares.org/) | How to make the internet not suck (as much). |[link](https://someonewhocares.org/hosts/) | [raw](https://someonewhocares.org/hosts/zero/hosts) | frequently | non-commercial with attribution | [issues](mailto:hosts@someonewhocares.org)
 Tiuxo hostlist - ads | Categorized hosts files for DNS based content blocking |[link](https://github.com/tiuxo/hosts) | [raw](https://raw.githubusercontent.com/tiuxo/hosts/master/ads) | occasional | CC BY 4.0 | [issues](https://github.com/tiuxo/hosts/issues)
 UncheckyAds | Windows installers ads sources sites based on https://unchecky.com/ content. |[link](https://github.com/FadeMind/hosts.extras) | [raw](https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts) | occasionally | MIT | [issues](https://github.com/FadeMind/hosts.extras/issues)
 URLHaus | A project from [abuse.ch](https://abuse.ch/) with the goal of sharing malicious URLs. |[link](https://urlhaus.abuse.ch/) | [raw](https://urlhaus.abuse.ch/downloads/hostfile/) | weekly | CC0 | [issues](mailto:cosntacptamem@abuse.ch)
@@ -100,7 +101,28 @@ folder tree, where you will find the data for `fakenews`, `social`, `gambling`, 
 
 ## Generate your own unified hosts file
 
-To generate your own unified hosts file you will need Python 3.5 or later.
+You have two options to generate your own hosts file.  You can do it in your own environment, or within a Docker container.  We'll cover Docker first because it's a short section.
+
+### Option 1: Generate in a Docker container
+
+We provide a [Dockerfile](https://github.com/StevenBlack/hosts/blob/master/Dockerfile) that you can use to create a Docker container with everything you need.
+The container will contain Python 3 and all its dependency requirements, and a copy of the latest version of this repository.
+
+Build the Docker container like this:
+
+```
+docker build ./
+```
+
+Access the terminal like this:
+
+```
+docker run -it (containerid) bash
+```
+
+### Option 2: Generate it in your own environment.
+
+To generate your own amalgamated hosts files you will need Python 3.5 or later.
 
 First, install the dependencies with:
 
@@ -110,7 +132,9 @@ pip3 install --user -r requirements.txt
 
 **Note** we recommend the `--user` flag which installs the required dependencies at the user level. More information about it can be found on pip [documentation](https://pip.pypa.io/en/stable/reference/pip_install/?highlight=--user#cmdoption-user).
 
-To run unit tests, in the top-level directory, run:
+### Common steps regardless of your development environment.
+
+To **run unit tests**, in the top-level directory, run:
 
 ```sh
 python3 testUpdateHostsFile.py
@@ -120,10 +144,6 @@ The `updateHostsFile.py` script will generate a unified hosts file based on the 
 local `data/` subfolder.  The script will prompt you whether it should fetch updated versions
 (from locations defined by the `update.json` text file in each source's folder). Otherwise, it
 will use the `hosts` file that's already there.
-
-### Usage
-
-#### Using Python 3:
 
 ```sh
 python3 updateHostsFile.py [--auto] [--replace] [--ip nnn.nnn.nnn.nnn] [--extensions ext1 ext2 ext3]
@@ -190,6 +210,23 @@ in hosts format to the generated hosts file.
 `--whitelist <whitelistfile>`, or `-w <whitelistfile>`: Use the given whitelist file
 to remove hosts from the generated hosts file.
 
+#### Using NixOS:
+
+To install hosts file on your machine add the following into your `configuration.nix`:
+
+```nix
+{
+  networking.extraHosts = let
+    hostsPath = https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts;
+    hostsFile = builtins.fetchurl hostsPath;
+  in builtins.readFile "${hostsFile}";
+}
+```
+
+* NOTE: Change `hostsPath` if you need other versions of hosts file.
+* NOTE: The call to `fetchurl` is impure.
+Use `fetchFromGitHub` with the exact commit if you want to always get the same result.
+
 
 ## How do I control which sources are unified?
 
@@ -237,8 +274,7 @@ If you discover sketchy domains you feel should be included here, here are some 
 
 The best way to get new domains included is to submit an issue to any of the data providers whose home pages are [listed here](https://github.com/StevenBlack/hosts#sources-of-hosts-data-unified-in-this-variant). This is best because once you submit new domains, they will be curated and updated by the dedicated folks who maintain these sources.
 
-
-### Option 2: add your domains to Steven Black's personal data file
+### Option 2: Fork this repository, add your domains to Steven Black's personal data file, and submit a pull request
 
 Fork this hosts this repo and add your links to [https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts](https://github.com/StevenBlack/hosts/blob/master/data/StevenBlack/hosts).
 
@@ -352,13 +388,6 @@ Open a command prompt with administrator privileges and run this command:
 ipconfig /flushdns
 ```
 
-Before flushing the DNS cache, open a command prompt with administrator privileges and run this command:
-
-```bat
-sc config "Dnscache" start=disabled
-sc stop "Dnscache"
-```
-
 ### Linux
 
 Open a Terminal and run with root privileges:
@@ -436,6 +465,8 @@ devices under a variety of operating systems.
 * [ViHoMa](https://github.com/cmabad/ViHoMa) is a Visual Hosts file Manager, written in Java, by Christian Martínez.  Check it out!
 
 ## Interesting Applications
+
+* [Maza ad blocking](https://github.com/tanrax/maza-ad-blocking) is a bash script that automatically updates host file. You can also update a fresh copy. And each time it generates a dnsmasq-compatible configuration file. Fast installation, compatible with MacOS, Linux and BSD.
 
 * [Hostile](https://github.com/feross/hostile) is a nifty command line utility to easily add or remove domains from your hosts file.  If our hosts files are too aggressive for you, you can use `hostile` to remove domains, or you can use `hostile` in a bash script to automate a post process each time you download fresh versions of hosts.
 
